@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:id="@+id/relativeLayout"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="15dp"
+        android:id="@+id/linearLayout"
+>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Règle du jeu"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="50dp"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+      >
+    </TextView>
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:text="Découvrez la règle du morpion ! Ce jeu très simple se joue à 2 joueurs"
+         android:textSize="15dp"
+         android:layout_marginTop="20dp"
+         android:textColor="@color/black">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Comment jouer au morpion ?"
+            android:textSize="20dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Le but du jeu est d’aligner avant son adversaire 3 symboles identiques horizontalement, verticalement ou en diagonale. Chaque joueur a donc son propre symbole, généralement une croix pour l’un et un rond pour l’autre. La partie se termine quand l’un des joueurs à aligner 3 symboles ou quand la grille est complétée sans vainqueur. Il y a alors égalité."
+            android:textSize="15dp"
+            android:textColor="@color/black"
+>
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Comment gagner une partie de Morpion ?"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Le premier joueur a aligner 3 symboles identiques gagne la partie. Attention, le joueur qui débute est toujours avantagé pour gagner. Pensez donc à alterner !"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            >
+        </TextView>
+
+   </LinearLayout>
+
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@id/linearLayout"
+        android:layout_marginTop="500dp"
+        android:layout_marginBottom="-61dp"
+        android:background="@drawable/buttonshape"
+        android:text="Acceuil"
+        android:id="@+id/homeBtn"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/white">
+
+    </Button>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-232dp"
+        android:src="@drawable/footer">
+
+    </ImageView>
+
+
+</RelativeLayout>
+

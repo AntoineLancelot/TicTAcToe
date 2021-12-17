@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:orientation="vertical"
+        android:id="@+id/gg"
+        >
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="90dp"
+            android:src="@drawable/tictactoe"></ImageView>
+
+        <Button
+        android:id="@+id/playButton"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:text="JOUER"
+        android:textColor="#ffffffff"
+        android:textSize="20sp"
+        android:background="@drawable/buttonshape"
+        android:layout_marginBottom="30dp">
+    </Button>
+
+    <Button
+        android:id="@+id/rulesButton"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:text="RÈGLE DU JEU"
+        android:textColor="#ffffffff"
+        android:textSize="20sp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:layout_marginBottom="30dp">
+    </Button>
+
+    <Button
+        android:id="@+id/aboutButton"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:text="À PROPOS"
+        android:textColor="#ffffffff"
+        android:textSize="20sp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:layout_marginBottom="30dp">
+    </Button>
+
+    <Button
+        android:id="@+id/quitButton"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:text="QUITTER"
+        android:textColor="#ffffffff"
+        android:textSize="20sp"
+        android:background="@drawable/buttonshape"
+        android:layout_marginBottom="30dp">
+    </Button>
+
+        <ImageView
+            android:id="@+id/soundImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/sound" />
+
+        <ImageView
+            android:id="@+id/muteImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/mutesound"
+            >
+
+        </ImageView>
+
+
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-216dp"
+        android:src="@drawable/footer"
+        >
+
+    </ImageView>
+
+
+</RelativeLayout>
